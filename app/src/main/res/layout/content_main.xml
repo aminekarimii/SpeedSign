@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white_1000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/profile_image"
+            android:fontFamily="@font/montserrat"
+            android:text="Bienvenue"
+            android:textColor="@color/md_grey_700"
+            android:textSize="21sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            app:civ_border_color="#03A9F4"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/header_tilte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_header"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Vos Infractions:"
+        android:textColor="@color/md_black_1000"
+        android:textSize="24sp" />
+
+
+    <com.yarolegovich.discretescrollview.DiscreteScrollView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="false"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_tilte" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

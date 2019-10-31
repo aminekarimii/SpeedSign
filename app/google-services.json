@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254213939554",
+    "firebase_url": "https://speed-api-b2668.firebaseio.com",
+    "project_id": "speed-api-b2668",
+    "storage_bucket": "speed-api-b2668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254213939554:android:0f0421977b979087d60c3b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254213939554-ehjs6cu5kkthugpvf63ntlrueo82ivpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "34092bf66d0bdb85050f4710edf825018ce09e69"
+          }
+        },
+        {
+          "client_id": "254213939554-a7avehldh4ra81qdf17nvvu53s6l2r82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAicBdYmA-raz8DbYGbQP7b8CmZYKOOB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254213939554-a7avehldh4ra81qdf17nvvu53s6l2r82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

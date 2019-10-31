@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfractionsList">
+
+    <TextView
+        android:id="@+id/header_tilte_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_header"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/md_black_1000"
+        android:textSize="24sp" />
+
+   <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/admin_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_tilte_admin" />
+
+</RelativeLayout>
